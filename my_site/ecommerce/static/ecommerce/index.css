@@ -1,0 +1,201 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Style for the navbar container */
+.nav_bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #007bff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.navbar_brand a {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar_nav {
+  list-style: none;
+  display: flex;
+  margin-top: 10px;
+}
+
+.navbar_nav .nav_item {
+  margin-left: 20px;
+}
+
+.navbar_nav .nav_link {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar_nav .nav_link:hover {
+  color: #ddd;
+}
+
+
+
+/* Style for the search container */
+.search {
+  margin-bottom: 20px; /* Example margin */
+}
+
+/* Style for the search form */
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+/* Style for the search input */
+.search-input {
+  flex: 1; /* Take up remaining space */
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+/* Style for the search button */
+.search-button {
+  padding: 8px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #2f6b36; /* Bootstrap primary color */
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #1c4121; /* Darker shade for hover effect */
+}
+
+/* Main container styling */
+.container {
+  margin-top: 20px;
+}
+
+/* Row styling using Flexbox */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Each column takes up 25% of the container's width */
+.col-md-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* Product card styling */
+.product-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image styling */
+.product-card .card-img-top {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Card body styling */
+.product-card .card-body {
+  padding: 15px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card title styling */
+.product-card .card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+  text-transform: capitalize;
+}
+
+/* Card text styling */
+.product-card .card-text {
+  font-size: 1.25rem;
+  color: #2f6b36;
+  font-weight: 600;
+}
+
+.custom-link {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 1rem; /* Adjust font size */
+    font-weight: bold;
+    color: #fff; /* Text color */
+    background-color: #007bff; /* Bootstrap primary color */
+    border: 1px solid #007bff; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center align text */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+
+    /* Optional: Add box-shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-link:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+    color: #fff; /* Text color on hover */
+}
+
+/* Paginator styling*/
+.paginator {
+    margin-top: 20px; /* Example margin */
+    text-align: center;
+}
+
+.paginator-link {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.paginator-link:hover {
+    background-color: #f0f0f0;
+}
+
+.paginator p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
